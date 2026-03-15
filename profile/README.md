@@ -53,11 +53,11 @@ At runtime, the system works as follows:
 
 ```mermaid
 flowchart LR
-    U[Telegram User] --> B[Telegram Bot\nTelegraf + TypeScript]
-    B --> A[Backend API\nNestJS]
+    U[Telegram User] --> B[Telegram Bot<br/>Telegraf + TypeScript]
+    B --> A[Backend API<br/>NestJS]
     A --> P[(PostgreSQL)]
     A --> O[OpenAI API]
-    A --> G[Google Docs\nPrompt Source]
+    A --> G[Google Docs<br/>Prompt Source]
 ```
 
 ### Bot Layer
