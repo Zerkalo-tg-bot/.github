@@ -57,7 +57,8 @@ flowchart LR
     B --> A[Backend API<br/>NestJS]
     A --> P[(PostgreSQL)]
     A --> O[OpenAI API]
-    A --> G[Google Docs<br/>Prompt Source]
+    A --> G[Google Docs]
+    A --> G[Prompt Source]
 ```
 
 ### Bot Layer
